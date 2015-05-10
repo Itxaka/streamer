@@ -1,8 +1,6 @@
 import gi
 gi.require_version('Gst', '1.0')
-from gi.repository import Gst
-from gi.repository import GObject, Gst, Gtk
-from gi.repository import GdkX11, GstVideo
+from gi.repository import Gst, Gtk, GObject, GstVideo, GdkX11
 import os
 
 # Based of http://bazaar.launchpad.net/~jderose/+junk/gst-examples/view/head:/webcam-1.0
